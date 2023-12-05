@@ -13,6 +13,7 @@
     <releaseNotes>https://github.com/siemens/ros-sharp/releases</releaseNotes>
     <copyright>$copyright$</copyright>
     <tags>ROS Robotic Operating System</tags>
+	  <repository type="git" url="https://github.com/uar-hyg/ros-sharp-fork-for-uar" />
   </metadata>
   <files>
     <file src="..\RosSharpLogoNuget.png" target="images\" />
