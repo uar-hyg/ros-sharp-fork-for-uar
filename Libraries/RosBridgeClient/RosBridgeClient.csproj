@@ -93,6 +93,8 @@
     <Compile Include="BaseMessages\Actions\ActionFeedback.cs" />
     <Compile Include="BaseMessages\Actions\ActionGoal.cs" />
     <Compile Include="BaseMessages\Actions\ActionResult.cs" />
+    <Compile Include="Enhance\Communicators2.cs" />
+    <Compile Include="Enhance\RosSocket2.cs" />
     <Compile Include="Log.cs" />
     <Compile Include="MessageTypes\Actionlib\msg\ActionStatus.cs" />
     <Compile Include="BaseMessages\Std\msg\Duration.cs" />
@@ -464,7 +466,6 @@
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

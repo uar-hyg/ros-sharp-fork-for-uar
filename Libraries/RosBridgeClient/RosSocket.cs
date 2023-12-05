@@ -24,6 +24,7 @@ using RosSharp.RosBridgeClient.Protocols;
 
 namespace RosSharp.RosBridgeClient
 {
+    [Obsolete("Use RosSocket2 instead of RosSocket")]
     public class RosSocket
     {
         public IProtocol protocol;
