@@ -1,3 +1,10 @@
+# Nuget Package 배포 방법
+## RosBridgeClient 폴더 내에서
+- nuget pack -IncludeReferencedProjects -symbols
+- nuspec 파일에 repository 속성 추가 (한번만 하면 됨)
+- nuget push
+
+
 # [<img src="https://github.com/siemens/ros-sharp/wiki/img/Home_RosSharpLogo.png" width="480" alt ="ROS#"/>](https://github.com/siemens/ros-sharp) #
 
 [ROS#](https://github.com/siemens/ros-sharp) is a set of open source software libraries and tools in [C\# ](https://docs.microsoft.com/de-de/dotnet/csharp/csharp) for communicating with [ROS](http://www.ros.org/) from .[NET](https://www.microsoft.com/net) applications, in particular [Unity](https://unity3d.com/).
